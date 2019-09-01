@@ -4,10 +4,10 @@
     $mail->isSMTP();                                     // Set mailer to use SMTP
     $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'smartywarrior121@gmail.com';                 // SMTP username
-    $mail->Password = 'Sanket12345';                           // SMTP password
+    $mail->Username = '';                 // SMTP username
+    $mail->Password = '';                           // SMTP password
     $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 587;                                    // TCP port to connect to
 
-    $mail->setFrom('sanketpatel850@gmail.com', 'Event Notifier');
+    $mail->setFrom('', 'Event Notifier');
 ?>
